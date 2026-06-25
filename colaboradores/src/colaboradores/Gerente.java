@@ -29,7 +29,7 @@ public class Gerente extends Funcionario{
 	public void visualizar() {
 		super.visualizar();
 		System.out.printf("\nBônus: R$ %.2f", this.bonus);
-		System.out.printf("\nO Salário do Gerente %s é R$ %.2f", this.getNome(), calcularSalario());
+		System.out.printf("\nO Salário do Gerente %s é R$ %.2f%n", this.getNome(), calcularSalario());
 	}
 
 }
